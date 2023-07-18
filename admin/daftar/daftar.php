@@ -73,7 +73,7 @@ if(isset($_POST["registrasi2"]) ) {
     <!-- NAVBAR -->
     <div class="hero">
         <nav>
-            <h2 class="logo"><a href="index.php">Pengaduan Masyarakat</a></h2>
+            <h2 class="logo"><a href="index.html">Pengaduan Masyarakat</a></h2>
             
             <button type="button"><a href="../beranda-ad.php">Kembali</a></button>
         </nav>

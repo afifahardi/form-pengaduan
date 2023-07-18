@@ -120,7 +120,7 @@ button a{
     <!-- NAVBAR -->
     <div class="hero">
         <nav>
-            <h2 class="logo"><a href="index.php">Pengaduan Masyarakat</a></h2>
+            <h2 class="logo"><a href="index.html">Pengaduan Masyarakat</a></h2>
             
             <button type="button"><a href="laporan.php">Kembali</a></button>
         </nav>

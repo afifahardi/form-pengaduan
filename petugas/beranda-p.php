@@ -22,7 +22,7 @@ $data    = mysqli_query($conn,"SELECT * FROM petugas WHERE id_petugas='$_SESSION
 	<!-- NAVBAR -->
 	<div class="hero">
 		<nav>
-			<h2 class="logo"><a href="index.php">Pengaduan Masyarakat</a></h2>
+			<h2 class="logo"><a href="index.html">Pengaduan Masyarakat</a></h2>
 			
 			<button type="button"><a href="logout.php">Logout</a></button>
 		</nav>

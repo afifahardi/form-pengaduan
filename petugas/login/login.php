@@ -18,7 +18,7 @@ error_reporting();
 	<!-- navbar -->
 	<div class="hero">
 		<nav>
-			<h2 class="logo"><a href="../../index.php">Pengaduan Masyarakat</a></h2>
+			<h2 class="logo"><a href="../../index.html">Pengaduan Masyarakat</a></h2>
 			
 		</nav>
 	</div>
