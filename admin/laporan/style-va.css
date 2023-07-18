@@ -1,0 +1,26 @@
+
+
+/* 4. SIDEBAR
+---------------------------------- */
+#sidebar {
+ position: fixed;
+ width: 350px;
+ height: 500px;
+ border: 1px solid #CCC;
+ margin-bottom: 7px;
+ /*text-align: center;*/
+ right: 140px;
+ background: lightgrey;
+}
+/* 5. CONTENT
+---------------------------------- */
+#content {
+ position: fixed;
+ width: 340px;
+ height: 500px;
+ margin-bottom: 2px;
+ border: 1px solid #CCC;
+ margin-bottom: 7px;
+ left: 190px;
+ background: lightgrey;
+}
