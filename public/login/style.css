@@ -1,0 +1,167 @@
+/*body{
+	color:#6a6f8c;
+	background: url() no-repeat center; 
+	font:600 16px/18px 'Open Sans',sans-serif;
+}*/
+
+body{
+				padding: 0;
+				margin: 0;
+				color:#6a6f8c;
+				background: url(../img/bg1.jpg) no-repeat;
+				background-size: cover;
+				font:600 16px/18px 'Open Sans',sans-serif;
+				
+			}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.hero{
+			height: 10vh;
+			width: 100%;
+			background-image: url(../img/bg1.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		nav{
+			background: #004650;
+			display: flex;
+			align-items: center;
+			justify-content: space-between ;
+			padding-top: 0px;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+		.logo a{
+			color: white;
+			font-size: 28px ;
+			text-decoration: none;
+		}
+		nav ul li{
+			list-style-type: none;
+			display: inline-block;
+			padding: 10px 20px;
+		}
+		nav ul li a{
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		nav ul li a:hover{
+			color: #00A180;
+			transition: .3s;
+		}
+.judul {
+	color: #004651;
+	font-size: 30px;
+	font-family: aharoni;
+	text-shadow: grey;
+	text-align:center;
+
+}
+
+.login-wrap{
+	width:100%;
+	margin: auto;
+	max-width:560px;
+	min-height:480px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	left: 0px;
+	top: 30px;
+	
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:30px 40px 50px 40px;
+	background:rgba(255,255,255,.9);
+}
+
+.sign-in{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	display:none;
+	color: black;
+	border-color:#1161ee;
+}
+
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:10px;
+	border-radius:25px;
+	background:rgba(146, 147, 158,.3);
+	}
+
+
+.login-form .group .label{
+	color:black;
+	font-size:12px;
+}
+
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;	
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:grey;
+}
+
+.login-form .group .input{
+	color: black;
+}
+
+
+
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:px;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+	color: black;
+}
+
+.foot-lnk{
+	text-align:center;
+}
+.login-form .group .input{
+	color: black;
+}
+
+.login-form{
+	padding-top: 10px;
+}
